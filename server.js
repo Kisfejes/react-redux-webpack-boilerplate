@@ -17,7 +17,6 @@ if (mode === 'development') {
 
   app.use(morgan('dev'));
 
-  console.log(config.output.publicPath);
   app.use(require('webpack-dev-middleware')(compiler, {
     noInfo: true,
     publicPath: config.output.publicPath

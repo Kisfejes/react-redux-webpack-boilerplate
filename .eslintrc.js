@@ -11,5 +11,8 @@ module.exports = {
     "installedESLint": true,
     "plugins": [
         "react"
-    ]
+    ],
+    "globals": {
+      "__DEVELOPMENT__": true
+    }
 };
